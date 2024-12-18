@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.resize-handle {
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: #4a5568;
+    cursor: se-resize;
+    z-index: 1;
+  }
+  
+  .react-resizable {
+    position: relative;
+  }
